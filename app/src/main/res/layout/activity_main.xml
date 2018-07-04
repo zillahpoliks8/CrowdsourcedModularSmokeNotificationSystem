@@ -6,13 +6,48 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="17dp"
+            android:layout_toStartOf="@+id/button_confirm"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/button_opt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button_back"
+            android:layout_toEndOf="@+id/button_confirm"
+            android:text="Option" />
+
+        <Button
+            android:id="@+id/button_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="158dp"
+            android:text="Confirm"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button_view"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="View Data" />
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "461271207877",
+    "firebase_url": "https://fir-database-c5b4b.firebaseio.com",
+    "project_id": "fir-database-c5b4b",
+    "storage_bucket": "fir-database-c5b4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461271207877:android:e8ec45fb2dc1dcfc",
+        "android_client_info": {
+          "package_name": "com.app.uic.crowdsourcedmodularsmokenotificationsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461271207877-hsdkhnjptubvqot7dla8pmkqb0pf852g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.uic.crowdsourcedmodularsmokenotificationsystem",
+            "certificate_hash": "24c4a79bda39577ac918722ed02cb5c992c1cef7"
+          }
+        },
+        {
+          "client_id": "461271207877-p9a5tcq8bvfatne5rgi720g79u8dahui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCibHRUmqBG6Zyx28miTIZmurwbxoZQrko"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461271207877-p9a5tcq8bvfatne5rgi720g79u8dahui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
