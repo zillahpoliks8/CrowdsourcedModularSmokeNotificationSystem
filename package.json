@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "mobile application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zillahpoliks8/CrowdsourcedModularSmokeNotificationSystem.git"
+  },
+  "author": "group 19",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zillahpoliks8/CrowdsourcedModularSmokeNotificationSystem/issues"
+  },
+  "homepage": "https://github.com/zillahpoliks8/CrowdsourcedModularSmokeNotificationSystem#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
